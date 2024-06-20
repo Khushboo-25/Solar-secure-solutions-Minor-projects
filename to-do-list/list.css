@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    margin-bottom: 350px !important;
+}
+.col-md-5{
+    margin-top: 150px !important;
+    
+    background-color: white;
+}
+h1{
+    text-align: center;
+    font-weight: bolder !important;
+    margin: 20px !important;
+}
+button{
+    margin-left: 10px !important;
+}
+input{
+    display: inline !important; 
+    border: 3px solid rgb(14, 13, 13) !important;
+    width: 85% !important;
+}
+#mytodo div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ecebeb;
+}
+
+#mytodo i {
+    cursor: pointer;
+    color: red;
+}
+#mytodo li{
+    list-style-type: none;
+    font-size: 20px;
+    /* width: 70%; */
+    
+}
